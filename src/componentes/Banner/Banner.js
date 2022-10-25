@@ -1,7 +1,8 @@
 import './Banner.css'
+
 function Banner(){
   return (
-    <header className = "Banner">
+    <header className = "banner">
       <img src = "/imagens/banner.png" alt = "Esse é o banner principal da página Organo"/>
     </header>
   )
