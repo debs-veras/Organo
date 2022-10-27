@@ -2,7 +2,7 @@ import './Rodape.css'
 
 const Rodape = () => {
   return(
-    <footer className = 'footer'>
+    <footer className = 'footer' style = {{backgroundImage: "url(/imagens/fundo.png)"}}>
       <section>
         <ul>
           <li>
