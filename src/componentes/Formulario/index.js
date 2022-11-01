@@ -26,7 +26,7 @@ const Formulario = (props) => {
   return(
     <section className = "formulario">
       <form onSubmit = {aoSalvar}>
-        <h2>Preencha os dados para criar o card dos colaboradores</h2>
+        <h2>Preencha os dados dos seus melhores animes</h2>
         <CampoTexto obrigatorio = {true} valor = {nome} aoAlterado = {valor => setNome(valor)} label = "Nome" placeholder = "Digite seu nome" />
         <CampoTexto obrigatorio = {true} valor = {cargo} aoAlterado = {valor => setCargo(valor)} label = "Cargo" placeholder = "Digite seu cargo" />
         <CampoTexto valor = {imagem} aoAlterado = {valor => setImagem(valor)} label = "Imagem" placeholder = "Digite o endereço da imagem" />

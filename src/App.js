@@ -7,17 +7,17 @@ import Time from './componentes/Time';
 function App(){
   const times = [
     {
-      nome: 'Programação',
+      nome: 'Front-end',
       corPrimaria: '#57c278',
       corSecundaria: '#d9f7e9' 
     },
     {
-      nome: 'Front-End',
+      nome: 'Programação',
       corPrimaria: '#82cffa',
       corSecundaria: '#e8f8ff' 
     },
     {
-      nome: 'Data-Science',
+      nome: 'Data Science',
       corPrimaria: '#a6d157',
       corSecundaria: '#f0f8e2' 
     },
